@@ -1,5 +1,9 @@
 {
   "devDependencies": {
+    "@parcel/packager-raw-url": "2.8.2",
+    "@parcel/packager-xml": "2.8.2",
+    "@parcel/transformer-webmanifest": "2.8.2",
+    "@parcel/transformer-xml": "2.8.2",
     "parcel": "^2.8.2",
     "posthtml-doctype": "^1.1.1"
   },
