@@ -1,0 +1,20 @@
+<button id="menuToggle" class="menuToggle">
+  <span class="open">≈</span>
+  <span class="close">⤫</span>
+</button>
+<div class="sidebar">
+  <h1>Julien Minguely</h1>
+  <p>multimedia and other stuff</p>
+  <nav class="main-nav">
+    <a class="{{ currentNav === 'about' && 'active' }}" href="/">About<span>→</span></a>
+    <a class="{{ currentNav === 'video' && 'active' }}" href="./video.html">Video<span>→</span></a>
+    <a class="{{ currentNav === 'music' && 'active' }}" href="./music.html">Music<span>→</span></a>
+  </nav>
+
+  <nav class="socials">
+    <a target="_blank" href="https://instagram.com/jminguely">Instagram</a>
+    <a target="_blank" href="https://vimeo.com/jminguely">Vimeo</a>
+    <a target="_blank" href="https://github.com/jminguely">Github</a>
+    <a target="_blank" href="mailto:julien@minguely.ch">Mail</a>
+  </nav>
+</div>
